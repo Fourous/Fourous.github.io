@@ -1,0 +1,144 @@
+---
+layout: page
+title: "About"
+description: "Who Am I"
+header-img: "img/home-bg-art.jpg"
+---
+
+<!-- Language Selector -->
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+<h1><strong>Hello</strong></h1>
+<a href="{{ site.baseurl }}/resumeCH"><strong>简历</strong></a>
+</br>
+<a href="{{ site.baseurl }}/resume"><strong>Resume</strong></a>
+<p>豆瓣：<a href="https://www.douban.com/people/133039065/"><strong>Fourous</strong></a></p>
+<p>知乎：<a href="https://www.zhihu.com/people/fourous"><strong>Fourous</strong></a></p>
+<p>掘金：<a href="https://juejin.im/user/5843c34a61ff4b006c2f6bdc"><strong>Fourous</strong></a></p>
+<p>社交平台很多，但是主要玩的都是这三个</p>
+<p>所有平台都是Fourous，不要问我单词是啥意思，我也不知道，当初写错了觉得好记</p>
+<p>只发文章链接，对政治，哲学，社会学，经济学感兴趣，欢迎一起交流</p>
+<p><strong>烟鬼</strong></p>
+<p><strong>色鬼</strong></p>
+<p><strong>王牌通宵员</strong></p>
+<p><strong>白日梦患者</strong></p>
+<p><strong>代码的民工</strong></p>
+<p><strong>偏文理科生</strong></p>
+<p><strong>装逼爱好者</strong></p>
+<p>兴趣广泛也不广泛，不爱运动但不是肥宅</p>
+<p>不看书就看电影</p>
+<p>不看电影就看毛片</p>
+<p>不看毛片就社交平台吹牛逼</p>
+<p>不吹牛逼就写代码</p>
+<p>不写代码就睡觉</p>
+<p>无耻推荐一下公众号</p>
+<p>虽然没啥粉丝，但是都是原创</p>
+<img src="/img/WechatG.jpg"/>
+<p>跟着心走，随着念行，随想随写，且志且远</p>
+<p>加个微信呗骚货</p>
+<img src="/img/Wechat.jpg"/>
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    <p>Hello</p>
+    <p>Hi, I am <strong>fourous liu</strong></p>
+    <p>Java Engineer</p>
+    <a href="{{ site.baseurl }}/resumeCH"><strong>简历</strong></a>
+    </br>
+    <a href="{{ site.baseurl }}/resume"><strong>Resume</strong></a>
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
+</script>
+
+
+<!-- Gitalk 评论 start  -->
+{% if site.gitalk.enable %}
+<!-- Gitalk link  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+    <script type="text/javascript">
+    var gitalk = new Gitalk({
+    clientID: '{{site.gitalk.clientID}}',
+    clientSecret: '{{site.gitalk.clientSecret}}',
+    repo: '{{site.gitalk.repo}}',
+    owner: '{{site.gitalk.owner}}',
+    admin: ['{{site.gitalk.admin}}'],
+    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+    id: 'about',
+    });
+    gitalk.render('gitalk-container');
+</script>
+{% endif %}
+<!-- Gitalk end -->
+
+ <!-- disqus 评论框 start  -->
+{% if site.disqus.enable %}
+
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+

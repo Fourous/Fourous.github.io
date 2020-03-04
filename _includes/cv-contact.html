@@ -1,0 +1,22 @@
+<!-- 联系方式 -->
+<div id="contact-info">
+
+    {% if page.homepage %}
+    <i class="fi-home" style="margin-left:1em"></i>
+    <a href="{{ page.homepage.url }}" style="margin-left:0.5em"> {{ page.homepage.text }}</a>
+    {% endif %}
+
+    {% if page.email %}
+    <i class="fi-mail" style="margin-left:1em"></i>
+    <a href="{{ page.email.url }}" style="margin-left:0.5em">{{ page.email.text }}</a>
+    {% endif %}
+
+    {% if page.phone %}
+    <i class="fi-telephone" style="margin-left:1em"></i>
+    {{ page.phone }}
+    {% endif %}
+    <!-- TODO 图片头像无法插入，这里还需要优化 -->
+    <!-- {% if page.ava %}
+    <img class="fi-avatar" src="{{page.ava.url}}" style="width: 80px;height: 80px;"/>
+    {% endif %} -->
+</div>

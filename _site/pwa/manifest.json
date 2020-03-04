@@ -1,0 +1,19 @@
+{
+  "name": "Fourous",
+  "short_name": "Fourous",
+  "description": "Fourous",
+  "icons": [{
+    "src": "icons/icon.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "icons/icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#fff",
+  "theme_color": "#000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
