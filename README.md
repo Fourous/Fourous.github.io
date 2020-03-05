@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/Fourous/Fourous.github.io.svg?branch=master)](https://travis-ci.org/Fourous/Fourous.github.io)
-
+[![codecov](https://codecov.io/gh/Fourous/Fourous.github.io/branch/master/graph/badge.svg)](https://codecov.io/gh/Fourous/Fourous.github.io)
+![GitHub](https://img.shields.io/github/license/Fourous/Fourous.github.io)
 博客搭建是基于Jekyll 
 
 更多细节查看官网：[Jekyll](http://jekyllcn.com/)
