@@ -1,11 +1,11 @@
 ---
 layout: cv
 email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
+  url: mailto:fourousky@gmail.com
+  text: fourousky@gmail.com
 homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: http://Fourous.github.io
+  text: fourous
 ---
 
 #  刘治桧

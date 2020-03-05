@@ -5,9 +5,49 @@
     <description>C’est la vie.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Mar 2020 17:56:13 +0800</pubDate>
-    <lastBuildDate>Thu, 05 Mar 2020 17:56:13 +0800</lastBuildDate>
+    <pubDate>Thu, 05 Mar 2020 20:57:43 +0800</pubDate>
+    <lastBuildDate>Thu, 05 Mar 2020 20:57:43 +0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Java</title>
+        <description>&lt;h4 id=&quot;彤哥读源码系列篇&quot;&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/GqxHvBd95OmbzQFH-uaM4w&quot;&gt;彤哥读源码系列篇&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;序列化serialversionuid&quot;&gt;&lt;a href=&quot;https://juejin.im/post/5e608b86e51d4527107c98f9&quot;&gt;序列化serialVersionUID&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;supresswarning&quot;&gt;&lt;a href=&quot;https://juejin.im/post/5e608c0be51d4526f76ec377&quot;&gt;@SupressWarning&lt;/a&gt;&lt;/h4&gt;
+
+</description>
+        <pubDate>Wed, 02 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/02/Java%E5%9F%BA%E7%A1%80/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/02/Java%E5%9F%BA%E7%A1%80/</guid>
+        
+        <category>Java</category>
+        
+        <category>设计模式</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Spring</title>
+        <description>&lt;h4 id=&quot;spring和springmvc区别&quot;&gt;&lt;a href=&quot;https://juejin.im/post/5e608c37f265da570829f2d8&quot;&gt;Spring和SpringMVC区别&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;mybatis一级二级缓存&quot;&gt;&lt;a href=&quot;https://juejin.im/post/5e608b206fb9a07c85143603&quot;&gt;Mybatis一级二级缓存&lt;/a&gt;&lt;/h4&gt;
+
+</description>
+        <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/01/%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/01/%E5%BC%80%E6%BA%90%E6%A1%86%E6%9E%B6/</guid>
+        
+        <category>Spring</category>
+        
+        <category>Mybatis</category>
+        
+        <category>开源框架</category>
+        
+        
+      </item>
     
   </channel>
 </rss>

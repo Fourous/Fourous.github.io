@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/Fourous/Fourous.github.io.svg?branch=master)](https://travis-ci.org/Fourous/Fourous.github.io)
 [![codecov](https://codecov.io/gh/Fourous/Fourous.github.io/branch/master/graph/badge.svg)](https://codecov.io/gh/Fourous/Fourous.github.io)
 ![GitHub](https://img.shields.io/github/license/Fourous/Fourous.github.io)
+<br>
 博客搭建是基于Jekyll 
 
 更多细节查看官网：[Jekyll](http://jekyllcn.com/)
@@ -17,6 +18,18 @@
 
 #下面是正文
 
+* 本地启动调试
+    * [jekyll环境](#jekyll环境)
+    * [更改配置](#更改配置)
+    * [撰写博文](#撰写博文)
+    * [侧壁栏](#侧边栏)
+    * [评论功能](#评论功能)
+    * [简历排版](#简历排版)
+
+* 更改博客
+    * [编译流程](#编译流程)
+    * [复用文件夹](#复用文件夹)
+    
 ## 本地启动调试
 
 ### jekyll环境
