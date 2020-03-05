@@ -1,3 +1,4 @@
+# travis-ci 配置文件
 language: ruby
 env:
   global:
@@ -9,5 +10,3 @@ script:
   - jekyll build
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  
-

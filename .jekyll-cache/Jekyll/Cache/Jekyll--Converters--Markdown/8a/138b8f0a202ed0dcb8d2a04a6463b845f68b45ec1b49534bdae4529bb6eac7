@@ -1,0 +1,144 @@
+I"8<h1 id="刘治桧">刘治桧</h1>
+
+<!--
+include contact information from the front matter
+Supported arguments:
+    - homepage: url, text
+    - phone
+    - email
+-->
+
+<!-- 联系方式 -->
+<div id="contact-info">
+
+    
+    <i class="fi-home" style="margin-left:1em"></i>
+    <a href="http://cs.cmu.edu/~woden" style="margin-left:0.5em"> cs.cmu.edu/~woden</a>
+    
+
+    
+    <i class="fi-mail" style="margin-left:1em"></i>
+    <a href="mailto:woden@cs.cmu.edu" style="margin-left:0.5em">woden@cs.cmu.edu</a>
+    
+
+    
+    <!-- TODO 图片头像无法插入，这里还需要优化 -->
+    <!--  -->
+</div>
+
+<h2 id="教育">教育</h2>
+
+<!-- ### **Carnegie Mellon University** `2018.9 -`
+
+```
+Pittsburgh, PA
+```
+
+- Ph.D. in Software Engineering
+- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/) -->
+
+<h3 id="武汉理工大学-20159---20197"><strong>武汉理工大学</strong> <code class="highlighter-rouge">2015.9 - 2019.7</code></h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>武汉, 湖北
+</code></pre></div></div>
+
+<ul>
+  <li>计算机科学与技术学院, 物联网工程</li>
+  <li>管理学院, 工商管理</li>
+</ul>
+
+<!-- ### **Dickinson College** `2013.9 - 2016.5`
+
+```
+Carlisle, PA
+```
+
+- B.S. in Computer Science, _Summa Cum Laude_
+- Computer Science Departmental Honors -->
+
+<!-- ## Publications
+
+### **How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**
+
+**Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, Joshua Sunshine<br>
+_Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._
+
+### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
+
+Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
+_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
+[[PDF](http://plateau-workshop.org/assets/papers-2019/9.pdf)]
+[[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)]
+
+### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://plateau-workshop.org/assets/papers-2019/2.pdf)
+
+Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
+_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
+[[PDF](http://plateau-workshop.org/assets/papers-2019/2.pdf)]
+[[slides](https://www.cs.cmu.edu/~woden/assets/plateau-19-presentation.pdf)] -->
+
+<!-- ### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
+
+**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
+[[PDF](https://www.cs.cmu.edu/~woden/assets/dsldi.pdf)]
+[[slides](https://www.cs.cmu.edu/~woden/assets/dsldi-presentation.pdf)]
+[[www](http://penrose.ink)]
+[[repo](https://github.com/penrose/penrose)]
+
+### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
+
+**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
+[[PDF](https://www.cs.cmu.edu/~woden/assets/superres.pdf)]
+
+---- -->
+
+<h2 id="经历">经历</h2>
+
+<h3 id="武汉物之联科技有限公司-201810---20198"><strong>武汉物之联科技有限公司</strong> <code class="highlighter-rouge">2018.10 - 2019.8</code></h3>
+
+<p><em>股东/软件开发</em><br />
+<strong><a href="https://github.com/Fourous/wanyangculture">武汉万洋科技有限公司</a></strong></p>
+
+<h3 id="columbia-university-computer-graphics-and-user-interfaces-lab-20171---20175"><strong>Columbia University, Computer Graphics and User Interfaces Lab</strong> <code class="highlighter-rouge">2017.1 - 2017.5</code></h3>
+
+<p><em>Research Assistant</em><br />
+Worked with prof. Steven Feiner, on <strong>Cyber Affordance Visualization in Augumented Reality</strong> project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.</p>
+
+<h3 id="asiainfo-20156---20158"><strong>AsiaInfo</strong> <code class="highlighter-rouge">2015.6 - 2015.8</code></h3>
+
+<p><em>Software Engineering Intern</em><br />
+Worked on server-side web applications and server deployment tools.</p>
+
+<h2 id="advising">Advising</h2>
+
+<p>Max Krieger (CMU, independent research &amp; <a href="https://www.cmu.edu/scs/isr/reuse/">REUSE</a>) <code class="highlighter-rouge">CMU, 2018 - Now</code> <br />
+Courtney Miller (New College of Florida, <a href="https://www.cmu.edu/scs/isr/reuse/">REUSE</a>) <code class="highlighter-rouge">CMU, 2019</code> <br />
+Anael Kuperwajs Cohen (Macalester College, <a href="https://www.cmu.edu/scs/isr/reuse/">REUSE</a>) <code class="highlighter-rouge">CMU, 2019</code> <br /></p>
+
+<h2 id="teaching">Teaching</h2>
+
+<p>Teaching Assistant, <strong>Programming Languages and Translators (COMS 4115)</strong> <code class="highlighter-rouge">Columbia, 2017 - 2018</code> <br />
+Teaching Assistant, <strong>Introduction to Java II (COMP 132)</strong> <code class="highlighter-rouge">Dickinson, 2016</code> <br />
+Peer Tutor, <strong>Data Structures and Problem Solving (COMP 232)</strong> <code class="highlighter-rouge">Dickinson, 2016</code> <br />
+Computer Lab Consultant <code class="highlighter-rouge">Dickinson, 2014 - 2016</code> <br /></p>
+
+<h2 id="honors--awards">Honors &amp; Awards</h2>
+
+<p>Phi Beta Kappa <code class="highlighter-rouge">Dickinson, 2018</code> <br />
+Excellence in Computer Science Award <code class="highlighter-rouge">Columbia, 2018</code> <br />
+Travel Award PL Mentoring Workshop (PLMW) <code class="highlighter-rouge">SPLASH, 2018</code> <br />
+Tau Beta Pi, Engineering Honor Society <code class="highlighter-rouge">Columbia, 2017</code> <br />
+Computer Science Departmental Honors <code class="highlighter-rouge">Dickinson, 2016</code> <br />
+Pi Mu Epsilon, Mathematics Honor Society <code class="highlighter-rouge">Dickinson, 2016</code> <br />
+Upsilon Pi Epsilon, Computer Science Honor Society <code class="highlighter-rouge">Dickinson, 2016</code> <br />
+Alpha Lambda Delta, First year Honor Society <code class="highlighter-rouge">Dickinson, 2013</code><br />
+John Montgomery Scholarship <code class="highlighter-rouge">Dickinson, 2013</code> <br /></p>
+
+<h2 id="service">Service</h2>
+
+<p>Research Experiences for Undergraduates in Software Engineering (REUSE) Admission Committee <code class="highlighter-rouge">CMU, 2019</code></p>
+
+<!-- ### Footer
+
+Last updated: May 2013 -->
+:ET

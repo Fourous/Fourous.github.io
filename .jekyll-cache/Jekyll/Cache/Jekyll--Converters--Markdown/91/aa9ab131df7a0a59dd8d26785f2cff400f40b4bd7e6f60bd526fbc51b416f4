@@ -1,0 +1,68 @@
+I"
+<h1 id="刘治桧">刘治桧</h1>
+
+<!--
+include contact information from the front matter
+Supported arguments:
+    - homepage: url, text
+    - phone
+    - email
+-->
+
+<!-- 联系方式 -->
+<div id="contact-info">
+
+    
+    <i class="fi-home" style="margin-left:1em"></i>
+    <a href="http://cs.cmu.edu/~woden" style="margin-left:0.5em"> cs.cmu.edu/~woden</a>
+    
+
+    
+    <i class="fi-mail" style="margin-left:1em"></i>
+    <a href="mailto:woden@cs.cmu.edu" style="margin-left:0.5em">woden@cs.cmu.edu</a>
+    
+
+    
+    <!-- TODO 图片头像无法插入，这里还需要优化 -->
+    <!--  -->
+</div>
+
+<h2 id="教育">教育</h2>
+
+<h3 id="武汉理工大学-20159---20197"><strong>武汉理工大学</strong> <code class="highlighter-rouge">2015.9 - 2019.7</code></h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>武汉, 湖北
+</code></pre></div></div>
+
+<ul>
+  <li>计算机科学与技术学院, 物联网工程</li>
+  <li>管理学院, 工商管理</li>
+</ul>
+
+<h2 id="经历">经历</h2>
+
+<h3 id="武汉物之联科技有限公司-201710---20198"><strong>武汉物之联科技有限公司</strong> <code class="highlighter-rouge">2017.10 - 2019.8</code></h3>
+
+<p><em>股东/软件开发</em><br /><br />
+<strong><a href="https://github.com/Fourous/wanyangculture">武汉万洋科技有限公司</a></strong>  <code class="highlighter-rouge">2017.10-2018.10</code>
+<em>小程序以及后端开发</em>
+负责后端与ARM板通信连接，采用NIO解决网络堵塞问题，规划后端与硬件的通信协议部分，后端与网页前端以及小程序的交互部分<br /><br />
+<strong><a href="https://github.com/Fourous/lieyan">武汉烈焰文化有限公司</a></strong> <code class="highlighter-rouge">2018.09-2019.04</code>
+<em>全栈开发</em>
+全栈开发小程序和后端部分，采用SpringBoot框架，Mybatis ORM , SpringSecurity+JWT权限验证做后端服务，采用树形结构解决分销资金流向问题</p>
+
+<h2 id="荣誉">荣誉</h2>
+
+<p>中国互联网+大学生创新创业大赛 &amp; <a href="https://cy.ncss.org.cn/index.html">官网</a> <code class="highlighter-rouge">全国铜奖, 2016</code> <br />
+中国大学生计算机设计大赛 &amp;<a href="http://jsjds.ruc.edu.cn/">官网</a> <code class="highlighter-rouge">中南二等奖, 2018</code> <br />
+软通动力杯  <code class="highlighter-rouge">二等奖+offer, 2018</code> <br /></p>
+
+<h2 id="研究方向">研究方向</h2>
+
+<p>分布式存储<br />
+ 计算机视觉<br /></p>
+
+<h3 id="footer">Footer</h3>
+
+<p>2020.03.05</p>
+:ET
