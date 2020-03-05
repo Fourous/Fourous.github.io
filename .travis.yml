@@ -3,6 +3,7 @@ language: ruby
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - CODECOV_TOKEN="609fa4f7-e776-4586-a3e2-024f8b76a95a"
 install: 
   - gem install jekyll
   - gem install jekyll-paginate
